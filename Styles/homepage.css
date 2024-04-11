@@ -210,6 +210,7 @@
   justify-content: center;
   cursor: pointer;
   transition: scale 0.2s;
+  text-align: center;
 }
 
 .card:hover {
@@ -247,6 +248,12 @@
 
 .homepage-link {
   text-decoration: none;
+}
+
+.card h3 {
+  width: 100%;
+  /* height: 300px; */
+  word-wrap: break-word;
 }
 
 @media only screen and (max-width: 1200px) {
