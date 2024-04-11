@@ -112,6 +112,10 @@
   font-size: 40px;
 }
 
+.credits {
+  margin-top: 100px;
+}
+
 .credits-card-container {
   margin-top: 100px;
   margin-bottom: 150px;
@@ -160,4 +164,91 @@
   font-weight: 700;
   text-align: center;
   color: #465a64;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navigation-container {
+    padding: unset;
+  }
+
+  .navigation-button {
+    font-size: 10px;
+    padding: 5px 15px 5px 15px;
+  }
+
+  .logo-container img {
+    width: 50px;
+  }
+
+  .logo-container {
+    gap: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .profile-area img {
+    width: 30px;
+  }
+
+  .button-container {
+    width: 100%;
+    gap: unset;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .navigation {
+    padding-top: 40px;
+  }
+
+  .main {
+    margin-top: 50px;
+  }
+
+  .main-container {
+    flex-direction: column-reverse;
+    height: unset;
+    text-align: center;
+  }
+
+  .credits {
+    margin-top: unset;
+  }
+
+  .side1 {
+    width: 100%;
+  }
+
+  .side2 {
+    width: 100%;
+  }
+
+  .side1-container {
+    padding: 20px 20px 40px 20px;
+  }
+
+  .homepage-hero {
+    font-size: 35px;
+  }
+
+  .homepage-description {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .homepage-signup {
+    font-size: 15px;
+  }
+
+  .credits-card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .credit-card {
+    width: 90%;
+  }
 }
